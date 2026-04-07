@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 def main():
     # 1. 配置路径与设备
     # 指向你刚才使用 ffmpeg 压缩出的目标文件夹，确保与 train.py 读取的目录完全一致
-    root_dir = "/root/LEMON_5sec_video_text_h264" 
+    root_dir = "/root/LIME" 
     output_csv = "lemonTXT_dataset_cache.csv"
     model_id = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
     
