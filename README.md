@@ -1,6 +1,9 @@
 # SurgLIME
 
 
+[![Model](https://img.shields.io/badge/Model-SurgLIME-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/PL-Stitch)
+[![Model](https://img.shields.io/badge/Dataset-LIME-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/visurg/LIME)
+
 
 This is the official repository for the CVPRW 2026 Oral paper "Can LLM-Generated Text Empower Surgical Vision-Language Pre-training?".
 
@@ -33,7 +36,7 @@ Install the following dependencies in your local setup:
 
 🗂️ Preparation
 -------------------
-1. Download the pretraining dataset ([LIME](https://github.com/visurg-ai/LEMON)) and evaluation datasets ([Cholec80](https://camma.unistra.fr/datasets/), [AutoLaparo](https://autolaparo.github.io/)).
+1. Download the pretraining dataset ([LIME](https://huggingface.co/datasets/visurg/LIME)) and evaluation datasets ([Cholec80](https://camma.unistra.fr/datasets/), [AutoLaparo](https://autolaparo.github.io/)).
 
 2. Download the [PL-Stitch](https://github.com/visurg-ai/PL-Stitch) vision foundation model.
 
