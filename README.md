@@ -25,6 +25,32 @@ Recent advancements in self-supervised learning have led to powerful surgical vi
 Install the following dependencies in your local setup:
 
    ```bash
-   $ git clone git@github.com:visurg-ai/PL-Stitch.git
-   $ cd PL-Stitch && pip install -r requirements.txt
+   git clone git@github.com:visurg-ai/SurgLIME.git
+   cd SurgLIME && pip install -r requirements.txt
    ```
+
+
+
+🗂️ Preparation
+-------------------
+1. Download the pretraining dataset ([LIME](https://github.com/visurg-ai/LEMON)) and evaluation datasets ([Cholec80](https://camma.unistra.fr/datasets/), [AutoLaparo](https://autolaparo.github.io/)).
+
+2. Download the [PL-Stitch](https://github.com/visurg-ai/PL-Stitch) vision foundation model.
+
+
+
+🚀 Training
+-----------
+We provide a script with default parameters for SurgLIME model pretraining.
+
+1. Score the LLM-generated narratives from the LIME dataset using PubMedBERT:
+
+```bash
+python score_texts.py
+```
+2. Execute the SurgLIME pretraining script:
+```bash
+bash train.sh
+```
+
+
