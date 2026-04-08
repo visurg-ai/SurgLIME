@@ -1,8 +1,8 @@
 # SurgLIME
 
-
-[![Model](https://img.shields.io/badge/Model-SurgLIME-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth)
 [![Model](https://img.shields.io/badge/Dataset-LIME-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/visurg/LIME/tree/main)
+[![Model](https://img.shields.io/badge/Model-SurgLIME-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth)
+
 
 
 This is the official repository for the CVPRW 2026 Oral paper "Can LLM-Generated Text Empower Surgical Vision-Language Pre-training?".
