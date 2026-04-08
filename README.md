@@ -40,6 +40,7 @@ Install the following dependencies in your local setup:
 
 2. Download the [PL-Stitch](https://github.com/visurg-ai/PL-Stitch) vision foundation model.
 
+<img width="1102" height="548" alt="Screenshot 2026-04-08 at 10 09 50" src="https://github.com/user-attachments/assets/bf1c0987-e1a7-4eec-9e67-81296d40c51f" />
 
 
 🚀 Training
@@ -54,6 +55,10 @@ python score_texts.py
 2. Execute the SurgLIME pretraining script:
 ```bash
 bash train.sh
+```
+3. Run zero-shot surgical phase recognition:
+```bash
+python zero_shot_autolaparo_LMDB.py
 ```
 
 
