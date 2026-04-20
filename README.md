@@ -1,7 +1,8 @@
 # Can LLM-Generated Text Empower Surgical Vision-Language Pre-training? (CVPRW 2026 Oral)
 
-[![Model](https://img.shields.io/badge/Dataset-LIME-ffcc00?style=flat=huggingface)](https://huggingface.co/datasets/visurg/LIME/tree/main)
-[![Model](https://img.shields.io/badge/Model-SurgLIME-ffcc00?style=flat=huggingface)](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth)
+[![Dataset](https://img.shields.io/badge/🤗_Dataset-LIME-ffcc00?style=flat)](https://huggingface.co/datasets/visurg/LIME/tree/main)
+[![Model](https://img.shields.io/badge/🤗_Model-SurgLIME-ffcc00?style=flat)]([https://huggingface.co/visurg/LemonFM](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth))
+
 
 
 
