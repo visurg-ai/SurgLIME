@@ -3,7 +3,7 @@
 
 [![Paper](https://img.shields.io/badge/📚_Paper-arXiv-b31b1b?style=flat)](https://arxiv.org/abs/2604.18134)
 [![Dataset](https://img.shields.io/badge/🤗_Dataset-LIME-ffcc00?style=flat)](https://huggingface.co/datasets/visurg/LIME/tree/main)
-[![Model](https://img.shields.io/badge/🤗_Model-SurgLIME-ffcc00?style=flat)]([https://huggingface.co/visurg/LemonFM](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth))
+[![Model](https://img.shields.io/badge/🤗_Model-SurgLIME-ffcc00?style=flat)](https://huggingface.co/visurg/SurgLIME/blob/main/surglime.pth)
 
 
 
